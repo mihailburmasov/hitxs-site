@@ -562,11 +562,12 @@
 <script src="assets/js/main.js"></script>
 <script>
   document.getElementById('year').textContent = new Date().getFullYear();
-  const featuredIds = [330, 354, 374, 285, 349, 363, 265, 340];
+  const featuredIds = [330, 354, 374, 285, 349, 363, 265, 340, 214, 347];
   const featured = featuredIds.map(id => PRODUCTS.find(p => p.id === id)).filter(Boolean);
   const featuredGrid = document.getElementById('featured-grid');
   featuredGrid.innerHTML = featured.map(productCardHTML).join('');
   bindProductGridEvents(featuredGrid);
+  featuredGrid.querySelectorAll('.reveal').forEach((el) => el.classList.add('is-visible'));
 </script>
 </body>
 </html>
