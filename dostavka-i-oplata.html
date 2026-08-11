@@ -25,6 +25,16 @@
     </nav>
     <div class="header-actions">
       <div class="header-phone"><a href="tel:+79534006248">+7 (953) 400-62-48</a><span>Пн–Вс, 10:00–21:00</span></div>
+      <div class="header-icons">
+        <button class="icon-btn js-open-fav" type="button" aria-label="Избранное">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.35-9.5-9A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6c-2.5 4.65-9.5 9-9.5 9Z"/></svg>
+          <span class="fav-badge" hidden>0</span>
+        </button>
+        <button class="icon-btn js-open-cart" type="button" aria-label="Корзина">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/><path d="M2 3h2l2.2 11.2a2 2 0 0 0 2 1.6h8.6a2 2 0 0 0 2-1.6L21 8H6"/></svg>
+          <span class="cart-badge" hidden>0</span>
+        </button>
+      </div>
       <button class="btn btn-primary btn-sm" type="button" data-open-order>Оставить заявку</button>
       <button class="burger" id="burger-btn" aria-label="Открыть меню"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
     </div>
@@ -36,6 +46,16 @@
   <div class="mobile-nav-panel">
     <div class="mobile-nav-top"><span style="font-family:var(--font-head);font-weight:700;font-size:1.2rem;">Меню</span>
       <button class="mobile-nav-close" id="mobile-nav-close" aria-label="Закрыть меню"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <div class="mobile-nav-icons">
+      <button class="mnav-icon-btn js-open-fav" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.35-9.5-9A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6c-2.5 4.65-9.5 9-9.5 9Z"/></svg>
+        Избранное<span class="fav-badge" hidden>0</span>
+      </button>
+      <button class="mnav-icon-btn js-open-cart" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/><path d="M2 3h2l2.2 11.2a2 2 0 0 0 2 1.6h8.6a2 2 0 0 0 2-1.6L21 8H6"/></svg>
+        Корзина<span class="cart-badge" hidden>0</span>
+      </button>
+    </div>
     <a class="mnav-link" href="index.html">Главная</a>
     <a class="mnav-link" href="catalog.html">Каталог</a>
     <a class="mnav-link" href="o-nas.html">О нас</a>
@@ -182,8 +202,39 @@
   </div>
 </div>
 
+<div class="modal-overlay drawer" id="cart-drawer" data-open="false">
+  <div class="modal-backdrop"></div>
+  <div class="modal-panel">
+    <div class="drawer-head">
+      <h3>Корзина</h3>
+      <button class="modal-close" data-modal-close aria-label="Закрыть" style="position:static;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <div class="drawer-body" id="cart-body"></div>
+    <div class="drawer-foot" id="cart-foot">
+      <div class="drawer-total"><span>Итого</span><b id="cart-total">0 ₽</b></div>
+      <button class="btn btn-primary btn-block" id="cart-checkout-btn" type="button">Оформить заказ</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay drawer" id="fav-drawer" data-open="false">
+  <div class="modal-backdrop"></div>
+  <div class="modal-panel">
+    <div class="drawer-head">
+      <h3>Избранное</h3>
+      <button class="modal-close" data-modal-close aria-label="Закрыть" style="position:static;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <div class="drawer-body" id="fav-body"></div>
+  </div>
+</div>
+
 <script src="assets/js/products.js"></script>
 <script src="assets/js/render.js"></script>
+<script src="assets/js/cart.js"></script>
 <script src="assets/js/main.js"></script>
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>

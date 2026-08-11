@@ -127,22 +127,46 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') $$('.modal-overlay[data-open="true"]').forEach(closeModal);
 });
 
-function openOrderModal(product) {
-  if (!orderModal) return;
-  if (product && orderPreview) {
+function renderOrderPreview(payload) {
+  if (!orderPreview) return;
+  if (Array.isArray(payload) && payload.length) {
     orderPreview.hidden = false;
+    orderPreview.classList.add('multi');
+    const lines = payload.map((i) => `
+      <div class="order-preview-line">
+        <img src="${i.image}" alt="${i.name}" loading="lazy" style="width:48px;height:48px;border-radius:8px;object-fit:cover;flex:none;">
+        <div>
+          <b>${i.name}</b>
+          <span>${formatPrice(i.price)} × ${i.qty}</span>
+        </div>
+      </div>`).join('');
+    const total = payload.reduce((sum, i) => sum + i.price * i.qty, 0);
+    orderPreview.innerHTML = lines + `<div class="order-preview-total"><span>Итого</span><span>${formatPrice(total)}</span></div>`;
+    if (orderProductField) {
+      orderProductField.value = payload.map((i) => `${i.name} ×${i.qty} — ${formatPrice(i.price)}`).join('; ') + ` | Итого: ${formatPrice(total)}`;
+    }
+  } else if (payload && payload.id) {
+    orderPreview.hidden = false;
+    orderPreview.classList.remove('multi');
     orderPreview.innerHTML = `
-      <img src="${product.image}" alt="${product.name}" loading="lazy">
+      <img src="${payload.image}" alt="${payload.name}" loading="lazy">
       <div>
-        <b>${product.name}</b>
-        <span>${formatPrice(product.price)}</span>
+        <b>${payload.name}</b>
+        <span>${formatPrice(payload.price)}</span>
       </div>`;
-    if (orderProductField) orderProductField.value = `${product.name} — ${formatPrice(product.price)}`;
-  } else if (orderPreview) {
+    if (orderProductField) orderProductField.value = `${payload.name} — ${formatPrice(payload.price)}`;
+  } else {
     orderPreview.hidden = true;
+    orderPreview.classList.remove('multi');
     orderPreview.innerHTML = '';
     if (orderProductField) orderProductField.value = '';
   }
+}
+
+function openOrderModal(payload) {
+  if (!orderModal) return;
+  renderOrderPreview(payload);
+  orderModal.dataset.mode = Array.isArray(payload) ? 'cart' : 'single';
   openModal(orderModal);
   setTimeout(() => $('#order-name')?.focus(), 350);
 }
@@ -164,11 +188,27 @@ function openQuickView(product) {
   $('#qv-desc', quickView).textContent = product.description;
   const metaWrap = $('#qv-meta', quickView);
   metaWrap.innerHTML = (product.material || []).map((m) => `<span class="chip">${m}</span>`).join('');
+
   const orderBtn = $('#qv-order-btn', quickView);
-  orderBtn.onclick = () => {
-    closeModal(quickView);
-    setTimeout(() => openOrderModal(product), 250);
-  };
+  if (orderBtn) {
+    orderBtn.textContent = 'В корзину';
+    orderBtn.onclick = () => {
+      if (typeof addToCart === 'function') addToCart(product.id, 1);
+      orderBtn.textContent = 'Добавлено ✓';
+      setTimeout(() => { orderBtn.textContent = 'В корзину'; }, 1200);
+    };
+  }
+
+  const favBtn = $('#qv-fav-btn', quickView);
+  if (favBtn) {
+    const syncFav = () => favBtn.classList.toggle('is-active', typeof isFavorite === 'function' && isFavorite(product.id));
+    syncFav();
+    favBtn.onclick = () => {
+      if (typeof toggleFavorite === 'function') toggleFavorite(product.id);
+      syncFav();
+    };
+  }
+
   openModal(quickView);
 }
 window.openQuickView = openQuickView;
@@ -229,7 +269,8 @@ function initForm(form) {
       if (res.ok) {
         showStatus(statusBox, 'ok', 'Заявка отправлена! Мы перезвоним вам в ближайшее время.');
         form.reset();
-        if (orderPreview) { orderPreview.hidden = true; orderPreview.innerHTML = ''; }
+        if (orderPreview) { orderPreview.hidden = true; orderPreview.innerHTML = ''; orderPreview.classList.remove('multi'); }
+        if (form.id === 'order-form' && orderModal?.dataset.mode === 'cart' && typeof clearCart === 'function') clearCart();
         setTimeout(() => {
           const modal = form.closest('.modal-overlay');
           if (modal) closeModal(modal);
@@ -241,6 +282,7 @@ function initForm(form) {
       if (err.message === 'demo') {
         showStatus(statusBox, 'ok', 'Заявка принята (демо-режим). Подключите форму к Formspree — см. FORM_ENDPOINT в assets/js/main.js.');
         form.reset();
+        if (form.id === 'order-form' && orderModal?.dataset.mode === 'cart' && typeof clearCart === 'function') clearCart();
       } else {
         showStatus(statusBox, 'err', 'Не получилось отправить форму. Позвоните нам напрямую: +7 (953) 400-62-48.');
       }
@@ -263,3 +305,18 @@ function showStatus(box, type, text) {
 }
 
 $$('form[data-lead-form]').forEach(initForm);
+
+/* ---------- Экспорт для cart.js ---------- */
+window.openModalEl = openModal;
+window.closeModalEl = closeModal;
+window.closeMobileNavIfOpen = () => {
+  if (mobileNav?.getAttribute('data-open') === 'true') closeMobileNav();
+};
+
+$('#cart-checkout-btn')?.addEventListener('click', () => {
+  if (typeof cartItems !== 'function') return;
+  const items = cartItems();
+  if (!items.length) return;
+  closeModal($('#cart-drawer'));
+  setTimeout(() => openOrderModal(items), 250);
+});

@@ -7,13 +7,16 @@ function productCategoryName(p) {
 }
 
 const ICON_EYE = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M1.5 12S5 5 12 5s10.5 7 10.5 7-3.5 7-10.5 7S1.5 12 1.5 12Z"/><circle cx="12" cy="12" r="3.2"/></svg>';
-const ICON_ARROW = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
+const ICON_HEART = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.35-9.5-9A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6c-2.5 4.65-9.5 9-9.5 9Z"/></svg>';
+const ICON_CART = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/><path d="M2 3h2l2.2 11.2a2 2 0 0 0 2 1.6h8.6a2 2 0 0 0 2-1.6L21 8H6"/></svg>';
 
 function productCardHTML(p) {
+  const fav = typeof isFavorite === 'function' && isFavorite(p.id);
   return `
   <article class="product-card reveal" data-id="${p.id}">
     <div class="product-thumb">
       <span class="product-tag">${productCategoryName(p)}</span>
+      <button class="product-fav-btn ${fav ? 'is-active' : ''}" type="button" aria-label="В избранное" data-fav="${p.id}">${ICON_HEART}</button>
       <img src="${p.image}" alt="${p.name}" loading="lazy" width="480" height="480">
       <button class="product-quick" type="button" aria-label="Быстрый просмотр" data-qv="${p.id}">${ICON_EYE}</button>
     </div>
@@ -23,7 +26,7 @@ function productCardHTML(p) {
       <p class="product-desc">${p.description}</p>
       <div class="product-foot">
         <span class="product-price">${Number(p.price).toLocaleString('ru-RU')} <small>₽</small></span>
-        <button class="product-order-btn" type="button" aria-label="Заказать" data-order="${p.id}">${ICON_ARROW}</button>
+        <button class="product-order-btn" type="button" aria-label="В корзину" data-cart-add="${p.id}">${ICON_CART}</button>
       </div>
     </div>
   </article>`;
@@ -36,10 +39,19 @@ function bindProductGridEvents(root) {
       if (p) window.openQuickView({ ...p, categoryName: productCategoryName(p) });
     });
   });
-  root.querySelectorAll('[data-order]').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const p = PRODUCTS.find((x) => x.id === Number(btn.dataset.order));
-      if (p) window.openOrderModal(p);
+  root.querySelectorAll('[data-cart-add]').forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const id = Number(btn.dataset.cartAdd);
+      window.addToCart(id, 1);
+      btn.classList.add('is-added');
+      setTimeout(() => btn.classList.remove('is-added'), 900);
+    });
+  });
+  root.querySelectorAll('[data-fav]').forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      window.toggleFavorite(Number(btn.dataset.fav));
     });
   });
 }
