@@ -497,12 +497,23 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
     </button>
     <div class="modal-body">
-      <div class="modal-media"><img id="qv-image" src="" alt=""></div>
+      <div class="modal-media">
+        <img id="qv-image" src="" alt="">
+        <button class="qv-nav qv-prev" id="qv-prev" type="button" aria-label="Предыдущее фото" hidden>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg>
+        </button>
+        <button class="qv-nav qv-next" id="qv-next" type="button" aria-label="Следующее фото" hidden>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+        </button>
+        <span class="qv-counter" id="qv-counter" hidden></span>
+        <div class="qv-thumbs" id="qv-thumbs" hidden></div>
+      </div>
       <div class="modal-info">
         <span class="product-cat" id="qv-cat"></span>
         <h3 id="qv-name"></h3>
         <div class="modal-price" id="qv-price"></div>
         <p class="modal-desc" id="qv-desc"></p>
+        <ul class="modal-specs" id="qv-specs"></ul>
         <div class="modal-meta" id="qv-meta"></div>
         <div class="qv-actions">
           <button class="icon-btn" id="qv-fav-btn" type="button" aria-label="В избранное">

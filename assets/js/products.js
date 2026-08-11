@@ -73,7 +73,26 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p340.jpg"
+    "image": "assets/img/catalog/p340-1.jpg",
+    "images": [
+      "assets/img/catalog/p340-1.jpg",
+      "assets/img/catalog/p340-2.jpg",
+      "assets/img/catalog/p340-3.jpg",
+      "assets/img/catalog/p340-4.jpg",
+      "assets/img/catalog/p340-5.jpg",
+      "assets/img/catalog/p340-6.jpg",
+      "assets/img/catalog/p340-7.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "34х16"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 339,
@@ -85,7 +104,26 @@ const PRODUCTS = [
     "material": [
       "Ясень"
     ],
-    "image": "assets/img/catalog/p339.jpg"
+    "image": "assets/img/catalog/p339-1.jpg",
+    "images": [
+      "assets/img/catalog/p339-1.jpg",
+      "assets/img/catalog/p339-2.jpg",
+      "assets/img/catalog/p339-3.jpg",
+      "assets/img/catalog/p339-4.jpg",
+      "assets/img/catalog/p339-5.jpg",
+      "assets/img/catalog/p339-6.jpg",
+      "assets/img/catalog/p339-7.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "34х16"
+      },
+      {
+        "name": "Массив",
+        "value": "Ясень"
+      }
+    ]
   },
   {
     "id": 338,
@@ -97,7 +135,22 @@ const PRODUCTS = [
     "material": [
       "Ясень"
     ],
-    "image": "assets/img/catalog/p338.jpg"
+    "image": "assets/img/catalog/p338-1.jpg",
+    "images": [
+      "assets/img/catalog/p338-1.jpg",
+      "assets/img/catalog/p338-2.jpg",
+      "assets/img/catalog/p338-3.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "39х6,5"
+      },
+      {
+        "name": "Массив",
+        "value": "Ясень"
+      }
+    ]
   },
   {
     "id": 366,
@@ -109,7 +162,25 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p366.jpg"
+    "image": "assets/img/catalog/p366-1.jpg",
+    "images": [
+      "assets/img/catalog/p366-1.jpg",
+      "assets/img/catalog/p366-2.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      },
+      {
+        "name": "Размер",
+        "value": "35х25"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 364,
@@ -121,7 +192,22 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p364.jpg"
+    "image": "assets/img/catalog/p364-1.jpg",
+    "images": [
+      "assets/img/catalog/p364-1.jpg",
+      "assets/img/catalog/p364-2.jpg",
+      "assets/img/catalog/p364-3.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      },
+      {
+        "name": "Размер",
+        "value": "35х25"
+      }
+    ]
   },
   {
     "id": 336,
@@ -133,7 +219,27 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p336.jpg"
+    "image": "assets/img/catalog/p336-1.jpg",
+    "images": [
+      "assets/img/catalog/p336-1.jpg",
+      "assets/img/catalog/p336-2.jpg",
+      "assets/img/catalog/p336-3.jpg",
+      "assets/img/catalog/p336-4.jpg",
+      "assets/img/catalog/p336-5.jpg",
+      "assets/img/catalog/p336-6.jpg",
+      "assets/img/catalog/p336-7.jpg",
+      "assets/img/catalog/p336-8.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "17х25"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 337,
@@ -145,7 +251,26 @@ const PRODUCTS = [
     "material": [
       "Ясень"
     ],
-    "image": "assets/img/catalog/p337.jpg"
+    "image": "assets/img/catalog/p337-1.jpg",
+    "images": [
+      "assets/img/catalog/p337-1.jpg",
+      "assets/img/catalog/p337-2.jpg",
+      "assets/img/catalog/p337-3.jpg",
+      "assets/img/catalog/p337-4.jpg",
+      "assets/img/catalog/p337-5.jpg",
+      "assets/img/catalog/p337-6.jpg",
+      "assets/img/catalog/p337-7.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "17х25"
+      },
+      {
+        "name": "Массив",
+        "value": "Ясень"
+      }
+    ]
   },
   {
     "id": 322,
@@ -157,7 +282,23 @@ const PRODUCTS = [
     "material": [
       "Бук"
     ],
-    "image": "assets/img/catalog/p322.jpg"
+    "image": "assets/img/catalog/p322-1.jpg",
+    "images": [
+      "assets/img/catalog/p322-1.jpg",
+      "assets/img/catalog/p322-2.jpg",
+      "assets/img/catalog/p322-3.jpg",
+      "assets/img/catalog/p322-4.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "28х14"
+      },
+      {
+        "name": "Массив",
+        "value": "Бук"
+      }
+    ]
   },
   {
     "id": 320,
@@ -169,7 +310,24 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p320.jpg"
+    "image": "assets/img/catalog/p320-1.jpg",
+    "images": [
+      "assets/img/catalog/p320-1.jpg",
+      "assets/img/catalog/p320-2.jpg",
+      "assets/img/catalog/p320-3.jpg",
+      "assets/img/catalog/p320-4.jpg",
+      "assets/img/catalog/p320-5.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "21х14,5"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 321,
@@ -181,7 +339,23 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p321.jpg"
+    "image": "assets/img/catalog/p321-1.jpg",
+    "images": [
+      "assets/img/catalog/p321-1.jpg",
+      "assets/img/catalog/p321-2.jpg",
+      "assets/img/catalog/p321-3.jpg",
+      "assets/img/catalog/p321-4.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "28х14"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 361,
@@ -193,7 +367,30 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p361.jpg"
+    "image": "assets/img/catalog/p361-1.jpg",
+    "images": [
+      "assets/img/catalog/p361-1.jpg",
+      "assets/img/catalog/p361-2.jpg",
+      "assets/img/catalog/p361-3.jpg",
+      "assets/img/catalog/p361-4.jpg",
+      "assets/img/catalog/p361-5.jpg",
+      "assets/img/catalog/p361-6.jpg",
+      "assets/img/catalog/p361-7.jpg",
+      "assets/img/catalog/p361-8.jpg",
+      "assets/img/catalog/p361-9.jpg",
+      "assets/img/catalog/p361-10.jpg",
+      "assets/img/catalog/p361-11.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "35х20"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 346,
@@ -205,7 +402,30 @@ const PRODUCTS = [
     "material": [
       "Берёза"
     ],
-    "image": "assets/img/catalog/p346.jpg"
+    "image": "assets/img/catalog/p346-1.jpg",
+    "images": [
+      "assets/img/catalog/p346-1.jpg",
+      "assets/img/catalog/p346-2.jpg",
+      "assets/img/catalog/p346-3.jpg",
+      "assets/img/catalog/p346-4.jpg",
+      "assets/img/catalog/p346-5.jpg",
+      "assets/img/catalog/p346-6.jpg",
+      "assets/img/catalog/p346-7.jpg",
+      "assets/img/catalog/p346-8.jpg",
+      "assets/img/catalog/p346-9.jpg",
+      "assets/img/catalog/p346-10.jpg",
+      "assets/img/catalog/p346-11.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "41х37"
+      },
+      {
+        "name": "Массив",
+        "value": "Береза"
+      }
+    ]
   },
   {
     "id": 345,
@@ -217,7 +437,27 @@ const PRODUCTS = [
     "material": [
       "Сосна"
     ],
-    "image": "assets/img/catalog/p345.jpg"
+    "image": "assets/img/catalog/p345-1.jpg",
+    "images": [
+      "assets/img/catalog/p345-1.jpg",
+      "assets/img/catalog/p345-2.jpg",
+      "assets/img/catalog/p345-3.jpg",
+      "assets/img/catalog/p345-4.jpg",
+      "assets/img/catalog/p345-5.jpg",
+      "assets/img/catalog/p345-6.jpg",
+      "assets/img/catalog/p345-7.jpg",
+      "assets/img/catalog/p345-8.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "57х27"
+      },
+      {
+        "name": "Массив",
+        "value": "Сосна"
+      }
+    ]
   },
   {
     "id": 352,
@@ -229,7 +469,25 @@ const PRODUCTS = [
     "material": [
       "Сосна"
     ],
-    "image": "assets/img/catalog/p352.jpg"
+    "image": "assets/img/catalog/p352-1.jpg",
+    "images": [
+      "assets/img/catalog/p352-1.jpg",
+      "assets/img/catalog/p352-2.jpg",
+      "assets/img/catalog/p352-3.jpg",
+      "assets/img/catalog/p352-4.jpg",
+      "assets/img/catalog/p352-5.jpg",
+      "assets/img/catalog/p352-6.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "41х37"
+      },
+      {
+        "name": "Массив",
+        "value": "Сосна"
+      }
+    ]
   },
   {
     "id": 285,
@@ -241,7 +499,25 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p285.jpg"
+    "image": "assets/img/catalog/p285-1.jpg",
+    "images": [
+      "assets/img/catalog/p285-1.jpg",
+      "assets/img/catalog/p285-2.jpg",
+      "assets/img/catalog/p285-3.jpg",
+      "assets/img/catalog/p285-4.jpg",
+      "assets/img/catalog/p285-5.jpg",
+      "assets/img/catalog/p285-6.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "диаметр 30"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 278,
@@ -253,7 +529,23 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p278.jpg"
+    "image": "assets/img/catalog/p278-1.jpg",
+    "images": [
+      "assets/img/catalog/p278-1.jpg",
+      "assets/img/catalog/p278-2.jpg",
+      "assets/img/catalog/p278-3.jpg",
+      "assets/img/catalog/p278-4.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "диаметр 25"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 281,
@@ -265,7 +557,25 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p281.jpg"
+    "image": "assets/img/catalog/p281-1.jpg",
+    "images": [
+      "assets/img/catalog/p281-1.jpg",
+      "assets/img/catalog/p281-2.jpg",
+      "assets/img/catalog/p281-3.jpg",
+      "assets/img/catalog/p281-4.jpg",
+      "assets/img/catalog/p281-5.jpg",
+      "assets/img/catalog/p281-6.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "25х25"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 343,
@@ -277,7 +587,23 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p343.jpg"
+    "image": "assets/img/catalog/p343-1.jpg",
+    "images": [
+      "assets/img/catalog/p343-1.jpg",
+      "assets/img/catalog/p343-2.jpg",
+      "assets/img/catalog/p343-3.jpg",
+      "assets/img/catalog/p343-4.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "27х24"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 282,
@@ -289,7 +615,25 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p282.jpg"
+    "image": "assets/img/catalog/p282-1.jpg",
+    "images": [
+      "assets/img/catalog/p282-1.jpg",
+      "assets/img/catalog/p282-2.jpg",
+      "assets/img/catalog/p282-3.jpg",
+      "assets/img/catalog/p282-4.jpg",
+      "assets/img/catalog/p282-5.jpg",
+      "assets/img/catalog/p282-6.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "25х27"
+      },
+      {
+        "name": "Массив",
+        "value": "Бук"
+      }
+    ]
   },
   {
     "id": 288,
@@ -301,7 +645,21 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p288.jpg"
+    "image": "assets/img/catalog/p288-1.jpg",
+    "images": [
+      "assets/img/catalog/p288-1.jpg",
+      "assets/img/catalog/p288-2.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "диаметр 25"
+      },
+      {
+        "name": "Массив",
+        "value": "Бук"
+      }
+    ]
   },
   {
     "id": 276,
@@ -313,7 +671,26 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p276.jpg"
+    "image": "assets/img/catalog/p276-1.jpg",
+    "images": [
+      "assets/img/catalog/p276-1.jpg",
+      "assets/img/catalog/p276-2.jpg",
+      "assets/img/catalog/p276-3.jpg",
+      "assets/img/catalog/p276-4.jpg",
+      "assets/img/catalog/p276-5.jpg",
+      "assets/img/catalog/p276-6.jpg",
+      "assets/img/catalog/p276-7.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "33х23"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 274,
@@ -325,7 +702,26 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p274.jpg"
+    "image": "assets/img/catalog/p274-1.jpg",
+    "images": [
+      "assets/img/catalog/p274-1.jpg",
+      "assets/img/catalog/p274-2.jpg",
+      "assets/img/catalog/p274-3.jpg",
+      "assets/img/catalog/p274-4.jpg",
+      "assets/img/catalog/p274-5.jpg",
+      "assets/img/catalog/p274-6.jpg",
+      "assets/img/catalog/p274-7.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "33х30"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 308,
@@ -337,7 +733,15 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p308.jpg"
+    "image": "assets/img/catalog/p308-1.jpg",
+    "images": [
+      "assets/img/catalog/p308-1.jpg",
+      "assets/img/catalog/p308-2.jpg",
+      "assets/img/catalog/p308-3.jpg",
+      "assets/img/catalog/p308-4.jpg",
+      "assets/img/catalog/p308-5.jpg"
+    ],
+    "features": []
   },
   {
     "id": 248,
@@ -349,7 +753,26 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p248.jpg"
+    "image": "assets/img/catalog/p248-1.jpg",
+    "images": [
+      "assets/img/catalog/p248-1.jpg",
+      "assets/img/catalog/p248-2.jpg",
+      "assets/img/catalog/p248-3.jpg",
+      "assets/img/catalog/p248-4.jpg",
+      "assets/img/catalog/p248-5.jpg",
+      "assets/img/catalog/p248-6.jpg",
+      "assets/img/catalog/p248-7.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      },
+      {
+        "name": "Размер",
+        "value": "25х35"
+      }
+    ]
   },
   {
     "id": 249,
@@ -361,7 +784,26 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p249.jpg"
+    "image": "assets/img/catalog/p249-1.jpg",
+    "images": [
+      "assets/img/catalog/p249-1.jpg",
+      "assets/img/catalog/p249-2.jpg",
+      "assets/img/catalog/p249-3.jpg",
+      "assets/img/catalog/p249-4.jpg",
+      "assets/img/catalog/p249-5.jpg",
+      "assets/img/catalog/p249-6.jpg",
+      "assets/img/catalog/p249-7.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      },
+      {
+        "name": "Размер",
+        "value": "25х35"
+      }
+    ]
   },
   {
     "id": 250,
@@ -373,7 +815,26 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p250.jpg"
+    "image": "assets/img/catalog/p250-1.jpg",
+    "images": [
+      "assets/img/catalog/p250-1.jpg",
+      "assets/img/catalog/p250-2.jpg",
+      "assets/img/catalog/p250-3.jpg",
+      "assets/img/catalog/p250-4.jpg",
+      "assets/img/catalog/p250-5.jpg",
+      "assets/img/catalog/p250-6.jpg",
+      "assets/img/catalog/p250-7.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      },
+      {
+        "name": "Размер",
+        "value": "25х35"
+      }
+    ]
   },
   {
     "id": 265,
@@ -385,7 +846,29 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p265.jpg"
+    "image": "assets/img/catalog/p265-1.jpg",
+    "images": [
+      "assets/img/catalog/p265-1.jpg",
+      "assets/img/catalog/p265-2.jpg",
+      "assets/img/catalog/p265-3.jpg",
+      "assets/img/catalog/p265-4.jpg",
+      "assets/img/catalog/p265-5.jpg",
+      "assets/img/catalog/p265-6.jpg",
+      "assets/img/catalog/p265-7.jpg",
+      "assets/img/catalog/p265-8.jpg",
+      "assets/img/catalog/p265-9.jpg",
+      "assets/img/catalog/p265-10.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      },
+      {
+        "name": "Размер",
+        "value": "25х35"
+      }
+    ]
   },
   {
     "id": 368,
@@ -397,7 +880,23 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p368.jpg"
+    "image": "assets/img/catalog/p368-1.jpg",
+    "images": [
+      "assets/img/catalog/p368-1.jpg",
+      "assets/img/catalog/p368-2.jpg",
+      "assets/img/catalog/p368-3.jpg",
+      "assets/img/catalog/p368-4.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "диаметр 30"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 349,
@@ -409,7 +908,34 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p349.jpg"
+    "image": "assets/img/catalog/p349-1.jpg",
+    "images": [
+      "assets/img/catalog/p349-1.jpg",
+      "assets/img/catalog/p349-2.jpg",
+      "assets/img/catalog/p349-3.jpg",
+      "assets/img/catalog/p349-4.jpg",
+      "assets/img/catalog/p349-5.jpg",
+      "assets/img/catalog/p349-6.jpg",
+      "assets/img/catalog/p349-7.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      },
+      {
+        "name": "Размер",
+        "value": "диаметр 35, диаметр 30"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      },
+      {
+        "name": "Размер",
+        "value": "диаметр 30"
+      }
+    ]
   },
   {
     "id": 263,
@@ -421,7 +947,23 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p263.jpg"
+    "image": "assets/img/catalog/p263-1.jpg",
+    "images": [
+      "assets/img/catalog/p263-1.jpg",
+      "assets/img/catalog/p263-2.jpg",
+      "assets/img/catalog/p263-3.jpg",
+      "assets/img/catalog/p263-4.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      },
+      {
+        "name": "Размер",
+        "value": "диаметр 30"
+      }
+    ]
   },
   {
     "id": 367,
@@ -433,7 +975,24 @@ const PRODUCTS = [
     "material": [
       "Массив дерева"
     ],
-    "image": "assets/img/catalog/p367.jpg"
+    "image": "assets/img/catalog/p367-1.jpg",
+    "images": [
+      "assets/img/catalog/p367-1.jpg",
+      "assets/img/catalog/p367-2.jpg",
+      "assets/img/catalog/p367-3.jpg",
+      "assets/img/catalog/p367-4.jpg",
+      "assets/img/catalog/p367-5.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "30х20"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 369,
@@ -445,7 +1004,11 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p369.jpg"
+    "image": "assets/img/catalog/p369-1.jpg",
+    "images": [
+      "assets/img/catalog/p369-1.jpg"
+    ],
+    "features": []
   },
   {
     "id": 370,
@@ -457,7 +1020,23 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p370.jpg"
+    "image": "assets/img/catalog/p370-1.jpg",
+    "images": [
+      "assets/img/catalog/p370-1.jpg",
+      "assets/img/catalog/p370-2.jpg",
+      "assets/img/catalog/p370-3.jpg",
+      "assets/img/catalog/p370-4.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      },
+      {
+        "name": "Размер",
+        "value": "25х35"
+      }
+    ]
   },
   {
     "id": 214,
@@ -469,7 +1048,23 @@ const PRODUCTS = [
     "material": [
       "Массив дерева"
     ],
-    "image": "assets/img/catalog/p214.jpg"
+    "image": "assets/img/catalog/p214-1.jpg",
+    "images": [
+      "assets/img/catalog/p214-1.jpg",
+      "assets/img/catalog/p214-2.jpg",
+      "assets/img/catalog/p214-3.jpg",
+      "assets/img/catalog/p214-4.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Ясень"
+      },
+      {
+        "name": "Размер",
+        "value": "25х35"
+      }
+    ]
   },
   {
     "id": 256,
@@ -481,7 +1076,31 @@ const PRODUCTS = [
     "material": [
       "Бук"
     ],
-    "image": "assets/img/catalog/p256.jpg"
+    "image": "assets/img/catalog/p256-1.jpg",
+    "images": [
+      "assets/img/catalog/p256-1.jpg",
+      "assets/img/catalog/p256-2.jpg",
+      "assets/img/catalog/p256-3.jpg",
+      "assets/img/catalog/p256-4.jpg",
+      "assets/img/catalog/p256-5.jpg",
+      "assets/img/catalog/p256-6.jpg",
+      "assets/img/catalog/p256-7.jpg",
+      "assets/img/catalog/p256-8.jpg",
+      "assets/img/catalog/p256-9.jpg",
+      "assets/img/catalog/p256-10.jpg",
+      "assets/img/catalog/p256-11.jpg",
+      "assets/img/catalog/p256-12.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Бук"
+      },
+      {
+        "name": "Размер",
+        "value": "25х35"
+      }
+    ]
   },
   {
     "id": 323,
@@ -493,7 +1112,21 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p323.jpg"
+    "image": "assets/img/catalog/p323-1.jpg",
+    "images": [
+      "assets/img/catalog/p323-1.jpg",
+      "assets/img/catalog/p323-2.jpg",
+      "assets/img/catalog/p323-3.jpg",
+      "assets/img/catalog/p323-4.jpg",
+      "assets/img/catalog/p323-5.jpg",
+      "assets/img/catalog/p323-6.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 377,
@@ -505,7 +1138,24 @@ const PRODUCTS = [
     "material": [
       "Бук"
     ],
-    "image": "assets/img/catalog/p377.jpg"
+    "image": "assets/img/catalog/p377-1.jpg",
+    "images": [
+      "assets/img/catalog/p377-1.jpg",
+      "assets/img/catalog/p377-2.jpg",
+      "assets/img/catalog/p377-3.jpg",
+      "assets/img/catalog/p377-4.jpg",
+      "assets/img/catalog/p377-5.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Бук"
+      },
+      {
+        "name": "Размер",
+        "value": "45х16"
+      }
+    ]
   },
   {
     "id": 375,
@@ -517,7 +1167,25 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p375.jpg"
+    "image": "assets/img/catalog/p375-1.jpg",
+    "images": [
+      "assets/img/catalog/p375-1.jpg",
+      "assets/img/catalog/p375-2.jpg",
+      "assets/img/catalog/p375-3.jpg",
+      "assets/img/catalog/p375-4.jpg",
+      "assets/img/catalog/p375-5.jpg",
+      "assets/img/catalog/p375-6.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      },
+      {
+        "name": "Размер",
+        "value": "25х35"
+      }
+    ]
   },
   {
     "id": 289,
@@ -529,7 +1197,25 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p289.jpg"
+    "image": "assets/img/catalog/p289-1.jpg",
+    "images": [
+      "assets/img/catalog/p289-1.jpg",
+      "assets/img/catalog/p289-2.jpg",
+      "assets/img/catalog/p289-3.jpg",
+      "assets/img/catalog/p289-4.jpg",
+      "assets/img/catalog/p289-5.jpg",
+      "assets/img/catalog/p289-6.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "30х21,5"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 290,
@@ -541,7 +1227,25 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p290.jpg"
+    "image": "assets/img/catalog/p290-1.jpg",
+    "images": [
+      "assets/img/catalog/p290-1.jpg",
+      "assets/img/catalog/p290-2.jpg",
+      "assets/img/catalog/p290-3.jpg",
+      "assets/img/catalog/p290-4.jpg",
+      "assets/img/catalog/p290-5.jpg",
+      "assets/img/catalog/p290-6.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "35х25"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 374,
@@ -553,7 +1257,24 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p374.jpg"
+    "image": "assets/img/catalog/p374-1.jpg",
+    "images": [
+      "assets/img/catalog/p374-1.jpg",
+      "assets/img/catalog/p374-2.jpg",
+      "assets/img/catalog/p374-3.jpg",
+      "assets/img/catalog/p374-4.jpg",
+      "assets/img/catalog/p374-5.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      },
+      {
+        "name": "Размер",
+        "value": "30х40"
+      }
+    ]
   },
   {
     "id": 365,
@@ -565,7 +1286,24 @@ const PRODUCTS = [
     "material": [
       "Массив дерева"
     ],
-    "image": "assets/img/catalog/p365.jpg"
+    "image": "assets/img/catalog/p365-1.jpg",
+    "images": [
+      "assets/img/catalog/p365-1.jpg",
+      "assets/img/catalog/p365-2.jpg",
+      "assets/img/catalog/p365-3.jpg",
+      "assets/img/catalog/p365-4.jpg",
+      "assets/img/catalog/p365-5.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "диаметр 18"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 363,
@@ -577,7 +1315,29 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p363.jpg"
+    "image": "assets/img/catalog/p363-1.jpg",
+    "images": [
+      "assets/img/catalog/p363-1.jpg",
+      "assets/img/catalog/p363-2.jpg",
+      "assets/img/catalog/p363-3.jpg",
+      "assets/img/catalog/p363-4.jpg",
+      "assets/img/catalog/p363-5.jpg",
+      "assets/img/catalog/p363-6.jpg",
+      "assets/img/catalog/p363-7.jpg",
+      "assets/img/catalog/p363-8.jpg",
+      "assets/img/catalog/p363-9.jpg",
+      "assets/img/catalog/p363-10.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "диаметр 18"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 362,
@@ -589,7 +1349,29 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p362.jpg"
+    "image": "assets/img/catalog/p362-1.jpg",
+    "images": [
+      "assets/img/catalog/p362-1.jpg",
+      "assets/img/catalog/p362-2.jpg",
+      "assets/img/catalog/p362-3.jpg",
+      "assets/img/catalog/p362-4.jpg",
+      "assets/img/catalog/p362-5.jpg",
+      "assets/img/catalog/p362-6.jpg",
+      "assets/img/catalog/p362-7.jpg",
+      "assets/img/catalog/p362-8.jpg",
+      "assets/img/catalog/p362-9.jpg",
+      "assets/img/catalog/p362-10.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "диаметр 18"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 342,
@@ -601,7 +1383,23 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p342.jpg"
+    "image": "assets/img/catalog/p342-1.jpg",
+    "images": [
+      "assets/img/catalog/p342-1.jpg",
+      "assets/img/catalog/p342-2.jpg",
+      "assets/img/catalog/p342-3.jpg",
+      "assets/img/catalog/p342-4.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "диаметр 24"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 324,
@@ -613,7 +1411,23 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p324.jpg"
+    "image": "assets/img/catalog/p324-1.jpg",
+    "images": [
+      "assets/img/catalog/p324-1.jpg",
+      "assets/img/catalog/p324-2.jpg",
+      "assets/img/catalog/p324-3.jpg",
+      "assets/img/catalog/p324-4.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "диаметр 18"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 341,
@@ -625,7 +1439,23 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p341.jpg"
+    "image": "assets/img/catalog/p341-1.jpg",
+    "images": [
+      "assets/img/catalog/p341-1.jpg",
+      "assets/img/catalog/p341-2.jpg",
+      "assets/img/catalog/p341-3.jpg",
+      "assets/img/catalog/p341-4.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "диаметр 24"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 318,
@@ -637,7 +1467,22 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p318.jpg"
+    "image": "assets/img/catalog/p318-1.jpg",
+    "images": [
+      "assets/img/catalog/p318-1.jpg",
+      "assets/img/catalog/p318-2.jpg",
+      "assets/img/catalog/p318-3.jpg",
+      "assets/img/catalog/p318-4.jpg",
+      "assets/img/catalog/p318-5.jpg",
+      "assets/img/catalog/p318-6.jpg",
+      "assets/img/catalog/p318-7.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 313,
@@ -649,7 +1494,27 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p313.jpg"
+    "image": "assets/img/catalog/p313-1.jpg",
+    "images": [
+      "assets/img/catalog/p313-1.jpg",
+      "assets/img/catalog/p313-2.jpg",
+      "assets/img/catalog/p313-3.jpg",
+      "assets/img/catalog/p313-4.jpg",
+      "assets/img/catalog/p313-5.jpg",
+      "assets/img/catalog/p313-6.jpg",
+      "assets/img/catalog/p313-7.jpg",
+      "assets/img/catalog/p313-8.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "диаметр 15"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 297,
@@ -661,7 +1526,24 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p297.jpg"
+    "image": "assets/img/catalog/p297-1.jpg",
+    "images": [
+      "assets/img/catalog/p297-1.jpg",
+      "assets/img/catalog/p297-2.jpg",
+      "assets/img/catalog/p297-3.jpg",
+      "assets/img/catalog/p297-4.jpg",
+      "assets/img/catalog/p297-5.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      },
+      {
+        "name": "Размер",
+        "value": "20х30"
+      }
+    ]
   },
   {
     "id": 360,
@@ -673,7 +1555,32 @@ const PRODUCTS = [
     "material": [
       "Бук"
     ],
-    "image": "assets/img/catalog/p360.jpg"
+    "image": "assets/img/catalog/p360-1.jpg",
+    "images": [
+      "assets/img/catalog/p360-1.jpg",
+      "assets/img/catalog/p360-2.jpg",
+      "assets/img/catalog/p360-3.jpg",
+      "assets/img/catalog/p360-4.jpg",
+      "assets/img/catalog/p360-5.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Бук"
+      },
+      {
+        "name": "Размер",
+        "value": "45х20"
+      },
+      {
+        "name": "Размер",
+        "value": "45х20"
+      },
+      {
+        "name": "Массив",
+        "value": "Бук"
+      }
+    ]
   },
   {
     "id": 354,
@@ -685,7 +1592,34 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p354.jpg"
+    "image": "assets/img/catalog/p354-1.jpg",
+    "images": [
+      "assets/img/catalog/p354-1.jpg",
+      "assets/img/catalog/p354-2.jpg",
+      "assets/img/catalog/p354-3.jpg",
+      "assets/img/catalog/p354-4.jpg",
+      "assets/img/catalog/p354-5.jpg",
+      "assets/img/catalog/p354-6.jpg",
+      "assets/img/catalog/p354-7.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      },
+      {
+        "name": "Размер",
+        "value": "39.5х29.5"
+      },
+      {
+        "name": "Размер",
+        "value": "40х30"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 359,
@@ -697,7 +1631,37 @@ const PRODUCTS = [
     "material": [
       "Массив дерева"
     ],
-    "image": "assets/img/catalog/p359.jpg"
+    "image": "assets/img/catalog/p359-1.jpg",
+    "images": [
+      "assets/img/catalog/p359-1.jpg",
+      "assets/img/catalog/p359-2.jpg",
+      "assets/img/catalog/p359-3.jpg",
+      "assets/img/catalog/p359-4.jpg",
+      "assets/img/catalog/p359-5.jpg",
+      "assets/img/catalog/p359-6.jpg",
+      "assets/img/catalog/p359-7.jpg",
+      "assets/img/catalog/p359-8.jpg",
+      "assets/img/catalog/p359-9.jpg",
+      "assets/img/catalog/p359-10.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Ясень"
+      },
+      {
+        "name": "Размер",
+        "value": "45х20"
+      },
+      {
+        "name": "Размер",
+        "value": "45х20"
+      },
+      {
+        "name": "Массив",
+        "value": "Ясень"
+      }
+    ]
   },
   {
     "id": 344,
@@ -709,7 +1673,35 @@ const PRODUCTS = [
     "material": [
       "Ясень"
     ],
-    "image": "assets/img/catalog/p344.jpg"
+    "image": "assets/img/catalog/p344-1.jpg",
+    "images": [
+      "assets/img/catalog/p344-1.jpg",
+      "assets/img/catalog/p344-2.jpg",
+      "assets/img/catalog/p344-3.jpg",
+      "assets/img/catalog/p344-4.jpg",
+      "assets/img/catalog/p344-5.jpg",
+      "assets/img/catalog/p344-6.jpg",
+      "assets/img/catalog/p344-7.jpg",
+      "assets/img/catalog/p344-8.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Ясень"
+      },
+      {
+        "name": "Размер",
+        "value": "20х30"
+      },
+      {
+        "name": "Размер",
+        "value": "30х20"
+      },
+      {
+        "name": "Массив",
+        "value": "Ясень"
+      }
+    ]
   },
   {
     "id": 372,
@@ -721,7 +1713,25 @@ const PRODUCTS = [
     "material": [
       "Бук"
     ],
-    "image": "assets/img/catalog/p372.jpg"
+    "image": "assets/img/catalog/p372-1.jpg",
+    "images": [
+      "assets/img/catalog/p372-1.jpg",
+      "assets/img/catalog/p372-2.jpg",
+      "assets/img/catalog/p372-3.jpg",
+      "assets/img/catalog/p372-4.jpg",
+      "assets/img/catalog/p372-5.jpg",
+      "assets/img/catalog/p372-6.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Бук"
+      },
+      {
+        "name": "Размер",
+        "value": "20х30"
+      }
+    ]
   },
   {
     "id": 373,
@@ -733,7 +1743,24 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p373.jpg"
+    "image": "assets/img/catalog/p373-1.jpg",
+    "images": [
+      "assets/img/catalog/p373-1.jpg",
+      "assets/img/catalog/p373-2.jpg",
+      "assets/img/catalog/p373-3.jpg",
+      "assets/img/catalog/p373-4.jpg",
+      "assets/img/catalog/p373-5.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      },
+      {
+        "name": "Размер",
+        "value": "45х20"
+      }
+    ]
   },
   {
     "id": 376,
@@ -745,7 +1772,23 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p376.jpg"
+    "image": "assets/img/catalog/p376-1.jpg",
+    "images": [
+      "assets/img/catalog/p376-1.jpg",
+      "assets/img/catalog/p376-2.jpg",
+      "assets/img/catalog/p376-3.jpg",
+      "assets/img/catalog/p376-4.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      },
+      {
+        "name": "Размер",
+        "value": "33х22"
+      }
+    ]
   },
   {
     "id": 309,
@@ -757,7 +1800,24 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p309.jpg"
+    "image": "assets/img/catalog/p309-1.jpg",
+    "images": [
+      "assets/img/catalog/p309-1.jpg",
+      "assets/img/catalog/p309-2.jpg",
+      "assets/img/catalog/p309-3.jpg",
+      "assets/img/catalog/p309-4.jpg",
+      "assets/img/catalog/p309-5.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "33х19"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 356,
@@ -769,7 +1829,33 @@ const PRODUCTS = [
     "material": [
       "Бук"
     ],
-    "image": "assets/img/catalog/p356.jpg"
+    "image": "assets/img/catalog/p356-1.jpg",
+    "images": [
+      "assets/img/catalog/p356-1.jpg",
+      "assets/img/catalog/p356-2.jpg",
+      "assets/img/catalog/p356-3.jpg",
+      "assets/img/catalog/p356-4.jpg",
+      "assets/img/catalog/p356-5.jpg",
+      "assets/img/catalog/p356-6.jpg",
+      "assets/img/catalog/p356-7.jpg",
+      "assets/img/catalog/p356-8.jpg",
+      "assets/img/catalog/p356-9.jpg",
+      "assets/img/catalog/p356-10.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Бук"
+      },
+      {
+        "name": "Размер",
+        "value": "33х19"
+      },
+      {
+        "name": "Массив",
+        "value": "Бук"
+      }
+    ]
   },
   {
     "id": 311,
@@ -781,7 +1867,21 @@ const PRODUCTS = [
     "material": [
       "Бук"
     ],
-    "image": "assets/img/catalog/p311.jpg"
+    "image": "assets/img/catalog/p311-1.jpg",
+    "images": [
+      "assets/img/catalog/p311-1.jpg",
+      "assets/img/catalog/p311-2.jpg",
+      "assets/img/catalog/p311-3.jpg",
+      "assets/img/catalog/p311-4.jpg",
+      "assets/img/catalog/p311-5.jpg",
+      "assets/img/catalog/p311-6.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Бук"
+      }
+    ]
   },
   {
     "id": 358,
@@ -794,7 +1894,31 @@ const PRODUCTS = [
       "Дуб",
       "Бук"
     ],
-    "image": "assets/img/catalog/p358.jpg"
+    "image": "assets/img/catalog/p358-1.jpg",
+    "images": [
+      "assets/img/catalog/p358-1.jpg",
+      "assets/img/catalog/p358-2.jpg",
+      "assets/img/catalog/p358-3.jpg",
+      "assets/img/catalog/p358-4.jpg",
+      "assets/img/catalog/p358-5.jpg",
+      "assets/img/catalog/p358-6.jpg",
+      "assets/img/catalog/p358-7.jpg",
+      "assets/img/catalog/p358-8.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      },
+      {
+        "name": "Размер",
+        "value": "33х19"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 312,
@@ -806,7 +1930,21 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p312.jpg"
+    "image": "assets/img/catalog/p312-1.jpg",
+    "images": [
+      "assets/img/catalog/p312-1.jpg",
+      "assets/img/catalog/p312-2.jpg",
+      "assets/img/catalog/p312-3.jpg",
+      "assets/img/catalog/p312-4.jpg",
+      "assets/img/catalog/p312-5.jpg",
+      "assets/img/catalog/p312-6.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 357,
@@ -818,7 +1956,31 @@ const PRODUCTS = [
     "material": [
       "Ясень"
     ],
-    "image": "assets/img/catalog/p357.jpg"
+    "image": "assets/img/catalog/p357-1.jpg",
+    "images": [
+      "assets/img/catalog/p357-1.jpg",
+      "assets/img/catalog/p357-2.jpg",
+      "assets/img/catalog/p357-3.jpg",
+      "assets/img/catalog/p357-4.jpg",
+      "assets/img/catalog/p357-5.jpg",
+      "assets/img/catalog/p357-6.jpg",
+      "assets/img/catalog/p357-7.jpg",
+      "assets/img/catalog/p357-8.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Ясень"
+      },
+      {
+        "name": "Размер",
+        "value": "33х19"
+      },
+      {
+        "name": "Массив",
+        "value": "Ясень"
+      }
+    ]
   },
   {
     "id": 310,
@@ -830,7 +1992,21 @@ const PRODUCTS = [
     "material": [
       "Ясень"
     ],
-    "image": "assets/img/catalog/p310.jpg"
+    "image": "assets/img/catalog/p310-1.jpg",
+    "images": [
+      "assets/img/catalog/p310-1.jpg",
+      "assets/img/catalog/p310-2.jpg",
+      "assets/img/catalog/p310-3.jpg",
+      "assets/img/catalog/p310-4.jpg",
+      "assets/img/catalog/p310-5.jpg",
+      "assets/img/catalog/p310-6.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Ясень"
+      }
+    ]
   },
   {
     "id": 350,
@@ -842,7 +2018,35 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p350.jpg"
+    "image": "assets/img/catalog/p350-1.jpg",
+    "images": [
+      "assets/img/catalog/p350-1.jpg",
+      "assets/img/catalog/p350-2.jpg",
+      "assets/img/catalog/p350-3.jpg",
+      "assets/img/catalog/p350-4.jpg",
+      "assets/img/catalog/p350-5.jpg",
+      "assets/img/catalog/p350-6.jpg",
+      "assets/img/catalog/p350-7.jpg",
+      "assets/img/catalog/p350-8.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      },
+      {
+        "name": "Размер",
+        "value": "27х18"
+      },
+      {
+        "name": "Размер",
+        "value": "35х20"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 228,
@@ -854,7 +2058,24 @@ const PRODUCTS = [
     "material": [
       "Бук"
     ],
-    "image": "assets/img/catalog/p228.jpg"
+    "image": "assets/img/catalog/p228-1.jpg",
+    "images": [
+      "assets/img/catalog/p228-1.jpg",
+      "assets/img/catalog/p228-2.jpg",
+      "assets/img/catalog/p228-3.jpg",
+      "assets/img/catalog/p228-4.jpg",
+      "assets/img/catalog/p228-5.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Бук"
+      },
+      {
+        "name": "Размер",
+        "value": "25х35"
+      }
+    ]
   },
   {
     "id": 227,
@@ -866,7 +2087,24 @@ const PRODUCTS = [
     "material": [
       "Ясень"
     ],
-    "image": "assets/img/catalog/p227.jpg"
+    "image": "assets/img/catalog/p227-1.jpg",
+    "images": [
+      "assets/img/catalog/p227-1.jpg",
+      "assets/img/catalog/p227-2.jpg",
+      "assets/img/catalog/p227-3.jpg",
+      "assets/img/catalog/p227-4.jpg",
+      "assets/img/catalog/p227-5.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Ясень"
+      },
+      {
+        "name": "Размер",
+        "value": "25х35"
+      }
+    ]
   },
   {
     "id": 210,
@@ -878,7 +2116,29 @@ const PRODUCTS = [
     "material": [
       "Бук"
     ],
-    "image": "assets/img/catalog/p210.jpg"
+    "image": "assets/img/catalog/p210-1.jpg",
+    "images": [
+      "assets/img/catalog/p210-1.jpg",
+      "assets/img/catalog/p210-2.jpg",
+      "assets/img/catalog/p210-3.jpg",
+      "assets/img/catalog/p210-4.jpg",
+      "assets/img/catalog/p210-5.jpg",
+      "assets/img/catalog/p210-6.jpg",
+      "assets/img/catalog/p210-7.jpg",
+      "assets/img/catalog/p210-8.jpg",
+      "assets/img/catalog/p210-9.jpg",
+      "assets/img/catalog/p210-10.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Бук"
+      },
+      {
+        "name": "Размер",
+        "value": "25х35"
+      }
+    ]
   },
   {
     "id": 230,
@@ -890,7 +2150,32 @@ const PRODUCTS = [
     "material": [
       "Бук"
     ],
-    "image": "assets/img/catalog/p230.jpg"
+    "image": "assets/img/catalog/p230-1.jpg",
+    "images": [
+      "assets/img/catalog/p230-1.jpg",
+      "assets/img/catalog/p230-2.jpg",
+      "assets/img/catalog/p230-3.jpg",
+      "assets/img/catalog/p230-4.jpg",
+      "assets/img/catalog/p230-5.jpg",
+      "assets/img/catalog/p230-6.jpg",
+      "assets/img/catalog/p230-7.jpg",
+      "assets/img/catalog/p230-8.jpg",
+      "assets/img/catalog/p230-9.jpg",
+      "assets/img/catalog/p230-10.jpg",
+      "assets/img/catalog/p230-11.jpg",
+      "assets/img/catalog/p230-12.jpg",
+      "assets/img/catalog/p230-13.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Бук"
+      },
+      {
+        "name": "Размер",
+        "value": "диаметр 25"
+      }
+    ]
   },
   {
     "id": 355,
@@ -902,7 +2187,34 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p355.jpg"
+    "image": "assets/img/catalog/p355-1.jpg",
+    "images": [
+      "assets/img/catalog/p355-1.jpg",
+      "assets/img/catalog/p355-2.jpg",
+      "assets/img/catalog/p355-3.jpg",
+      "assets/img/catalog/p355-4.jpg",
+      "assets/img/catalog/p355-5.jpg",
+      "assets/img/catalog/p355-6.jpg",
+      "assets/img/catalog/p355-7.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      },
+      {
+        "name": "Размер",
+        "value": "50х29.5"
+      },
+      {
+        "name": "Размер",
+        "value": "30х50"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 347,
@@ -914,7 +2226,26 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p347.jpg"
+    "image": "assets/img/catalog/p347-1.jpg",
+    "images": [
+      "assets/img/catalog/p347-1.jpg",
+      "assets/img/catalog/p347-2.jpg",
+      "assets/img/catalog/p347-3.jpg",
+      "assets/img/catalog/p347-4.jpg",
+      "assets/img/catalog/p347-5.jpg",
+      "assets/img/catalog/p347-6.jpg",
+      "assets/img/catalog/p347-7.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 348,
@@ -926,7 +2257,30 @@ const PRODUCTS = [
     "material": [
       "Бук"
     ],
-    "image": "assets/img/catalog/p348.jpg"
+    "image": "assets/img/catalog/p348-1.jpg",
+    "images": [
+      "assets/img/catalog/p348-1.jpg",
+      "assets/img/catalog/p348-2.jpg",
+      "assets/img/catalog/p348-3.jpg",
+      "assets/img/catalog/p348-4.jpg",
+      "assets/img/catalog/p348-5.jpg",
+      "assets/img/catalog/p348-6.jpg",
+      "assets/img/catalog/p348-7.jpg",
+      "assets/img/catalog/p348-8.jpg",
+      "assets/img/catalog/p348-9.jpg",
+      "assets/img/catalog/p348-10.jpg",
+      "assets/img/catalog/p348-11.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 333,
@@ -938,7 +2292,25 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p333.jpg"
+    "image": "assets/img/catalog/p333-1.jpg",
+    "images": [
+      "assets/img/catalog/p333-1.jpg",
+      "assets/img/catalog/p333-2.jpg",
+      "assets/img/catalog/p333-3.jpg",
+      "assets/img/catalog/p333-4.jpg",
+      "assets/img/catalog/p333-5.jpg",
+      "assets/img/catalog/p333-6.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "29.5 х20"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 334,
@@ -950,7 +2322,25 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p334.jpg"
+    "image": "assets/img/catalog/p334-1.jpg",
+    "images": [
+      "assets/img/catalog/p334-1.jpg",
+      "assets/img/catalog/p334-2.jpg",
+      "assets/img/catalog/p334-3.jpg",
+      "assets/img/catalog/p334-4.jpg",
+      "assets/img/catalog/p334-5.jpg",
+      "assets/img/catalog/p334-6.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "28.5х28.5"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 331,
@@ -962,7 +2352,26 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p331.jpg"
+    "image": "assets/img/catalog/p331-1.jpg",
+    "images": [
+      "assets/img/catalog/p331-1.jpg",
+      "assets/img/catalog/p331-2.jpg",
+      "assets/img/catalog/p331-3.jpg",
+      "assets/img/catalog/p331-4.jpg",
+      "assets/img/catalog/p331-5.jpg",
+      "assets/img/catalog/p331-6.jpg",
+      "assets/img/catalog/p331-7.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "35х30"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 332,
@@ -974,7 +2383,25 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p332.jpg"
+    "image": "assets/img/catalog/p332-1.jpg",
+    "images": [
+      "assets/img/catalog/p332-1.jpg",
+      "assets/img/catalog/p332-2.jpg",
+      "assets/img/catalog/p332-3.jpg",
+      "assets/img/catalog/p332-4.jpg",
+      "assets/img/catalog/p332-5.jpg",
+      "assets/img/catalog/p332-6.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "40х30"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   },
   {
     "id": 330,
@@ -986,7 +2413,33 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p330.jpg"
+    "image": "assets/img/catalog/p330-1.jpg",
+    "images": [
+      "assets/img/catalog/p330-1.jpg",
+      "assets/img/catalog/p330-2.jpg",
+      "assets/img/catalog/p330-3.jpg",
+      "assets/img/catalog/p330-4.jpg",
+      "assets/img/catalog/p330-5.jpg",
+      "assets/img/catalog/p330-6.jpg"
+    ],
+    "features": [
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      },
+      {
+        "name": "Размер",
+        "value": "45х30"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      },
+      {
+        "name": "Размер",
+        "value": "45х30"
+      }
+    ]
   },
   {
     "id": 328,
@@ -998,7 +2451,16 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p328.jpg"
+    "image": "assets/img/catalog/p328-1.jpg",
+    "images": [
+      "assets/img/catalog/p328-1.jpg",
+      "assets/img/catalog/p328-2.jpg",
+      "assets/img/catalog/p328-3.jpg",
+      "assets/img/catalog/p328-4.jpg",
+      "assets/img/catalog/p328-5.jpg",
+      "assets/img/catalog/p328-6.jpg"
+    ],
+    "features": []
   },
   {
     "id": 327,
@@ -1010,6 +2472,24 @@ const PRODUCTS = [
     "material": [
       "Дуб"
     ],
-    "image": "assets/img/catalog/p327.jpg"
+    "image": "assets/img/catalog/p327-1.jpg",
+    "images": [
+      "assets/img/catalog/p327-1.jpg",
+      "assets/img/catalog/p327-2.jpg",
+      "assets/img/catalog/p327-3.jpg",
+      "assets/img/catalog/p327-4.jpg",
+      "assets/img/catalog/p327-5.jpg",
+      "assets/img/catalog/p327-6.jpg"
+    ],
+    "features": [
+      {
+        "name": "Размер",
+        "value": "40х30"
+      },
+      {
+        "name": "Массив",
+        "value": "Дуб"
+      }
+    ]
   }
 ];

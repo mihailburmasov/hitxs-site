@@ -176,18 +176,61 @@ $$('[data-open-order]').forEach((btn) => {
   btn.addEventListener('click', () => openOrderModal(null));
 });
 
-/* ---------- Quick view modal (каталог) ---------- */
+/* ---------- Quick view modal: галерея фото + описание ---------- */
 const quickView = $('#quickview-modal');
+let qvImages = [];
+let qvIndex = 0;
+
+function qvShow(i) {
+  if (!qvImages.length) return;
+  qvIndex = (i + qvImages.length) % qvImages.length;
+  const imgEl = $('#qv-image', quickView);
+  if (imgEl) imgEl.src = qvImages[qvIndex];
+  $$('.qv-thumb', quickView).forEach((t, idx) => t.classList.toggle('is-active', idx === qvIndex));
+  const counter = $('#qv-counter', quickView);
+  if (counter) counter.textContent = `${qvIndex + 1} / ${qvImages.length}`;
+}
+
+$('#qv-prev')?.addEventListener('click', () => qvShow(qvIndex - 1));
+$('#qv-next')?.addEventListener('click', () => qvShow(qvIndex + 1));
+
 function openQuickView(product) {
   if (!quickView || !product) return;
-  $('#qv-image', quickView).src = product.image;
-  $('#qv-image', quickView).alt = product.name;
+  const imgEl = $('#qv-image', quickView);
+  imgEl.alt = product.name;
   $('#qv-cat', quickView).textContent = product.categoryName || '';
   $('#qv-name', quickView).textContent = product.name;
   $('#qv-price', quickView).textContent = formatPrice(product.price);
   $('#qv-desc', quickView).textContent = product.description;
+
   const metaWrap = $('#qv-meta', quickView);
   metaWrap.innerHTML = (product.material || []).map((m) => `<span class="chip">${m}</span>`).join('');
+
+  const specsWrap = $('#qv-specs', quickView);
+  if (specsWrap) {
+    specsWrap.innerHTML = (product.features || [])
+      .map((f) => `<li><span>${f.name}</span><span>${f.value}</span></li>`).join('');
+  }
+
+  // Галерея
+  qvImages = (product.images && product.images.length ? product.images : [product.image]);
+  qvIndex = 0;
+  const multi = qvImages.length > 1;
+  const thumbsWrap = $('#qv-thumbs', quickView);
+  const prevBtn = $('#qv-prev', quickView);
+  const nextBtn = $('#qv-next', quickView);
+  const counterEl = $('#qv-counter', quickView);
+  if (thumbsWrap) {
+    thumbsWrap.innerHTML = multi
+      ? qvImages.map((src, i) => `<img class="qv-thumb${i === 0 ? ' is-active' : ''}" src="${src}" data-i="${i}" alt="Фото ${i + 1}" loading="lazy">`).join('')
+      : '';
+    thumbsWrap.hidden = !multi;
+    thumbsWrap.querySelectorAll('.qv-thumb').forEach((t) => t.addEventListener('click', () => qvShow(Number(t.dataset.i))));
+  }
+  if (prevBtn) prevBtn.hidden = !multi;
+  if (nextBtn) nextBtn.hidden = !multi;
+  if (counterEl) counterEl.hidden = !multi;
+  qvShow(0);
 
   const orderBtn = $('#qv-order-btn', quickView);
   if (orderBtn) {
