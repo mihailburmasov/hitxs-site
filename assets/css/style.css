@@ -608,7 +608,7 @@ section{padding-block:96px;}
 .filter-option{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:8px 4px;cursor:pointer;border-radius:8px;transition:background .2s;}
 .filter-option:hover{background:var(--bg-alt);}
 .filter-option-label{display:flex;align-items:center;gap:10px;font-size:.9rem;font-weight:600;}
-.filter-option input{width:17px;height:17px;accent-color:var(--accent);}
+.filter-option input{width:17px;height:17px;flex:none;accent-color:var(--accent);}
 .filter-count{font-size:.76rem;color:var(--text-faint);background:var(--bg-alt);padding:2px 8px;border-radius:var(--radius-full);}
 .filter-reset{margin-top:6px;}
 
