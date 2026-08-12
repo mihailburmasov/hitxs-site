@@ -134,7 +134,7 @@ function renderOrderPreview(payload) {
     orderPreview.classList.add('multi');
     const lines = payload.map((i) => `
       <div class="order-preview-line">
-        <img src="${i.image}" alt="${i.name}" loading="lazy" style="width:48px;height:48px;border-radius:8px;object-fit:cover;flex:none;">
+        <img src="${assetUrl(i.image)}" alt="${i.name}" loading="lazy" style="width:48px;height:48px;border-radius:8px;object-fit:cover;flex:none;">
         <div>
           <b>${i.name}</b>
           <span>${formatPrice(i.price)} × ${i.qty}</span>
@@ -149,7 +149,7 @@ function renderOrderPreview(payload) {
     orderPreview.hidden = false;
     orderPreview.classList.remove('multi');
     orderPreview.innerHTML = `
-      <img src="${payload.image}" alt="${payload.name}" loading="lazy">
+      <img src="${assetUrl(payload.image)}" alt="${payload.name}" loading="lazy">
       <div>
         <b>${payload.name}</b>
         <span>${formatPrice(payload.price)}</span>
@@ -213,7 +213,7 @@ function openQuickView(product) {
   }
 
   // Галерея
-  qvImages = (product.images && product.images.length ? product.images : [product.image]);
+  qvImages = (product.images && product.images.length ? product.images : [product.image]).map(assetUrl);
   qvIndex = 0;
   const multi = qvImages.length > 1;
   const thumbsWrap = $('#qv-thumbs', quickView);

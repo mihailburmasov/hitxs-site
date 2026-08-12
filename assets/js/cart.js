@@ -98,7 +98,7 @@ function renderCartDrawer() {
   if (foot) foot.style.display = '';
   body.innerHTML = items.map((i) => `
     <div class="cart-line">
-      <img src="${i.image}" alt="${i.name}">
+      <img src="${assetUrl(i.image)}" alt="${i.name}">
       <div class="cart-line-info">
         <b>${i.name}</b>
         <span>${Number(i.price).toLocaleString('ru-RU')} ₽ × ${i.qty}</span>
@@ -139,7 +139,7 @@ function renderFavDrawer() {
   }
   body.innerHTML = items.map((p) => `
     <div class="cart-line">
-      <img src="${p.image}" alt="${p.name}">
+      <img src="${assetUrl(p.image)}" alt="${p.name}">
       <div class="cart-line-info">
         <b>${p.name}</b>
         <span>${Number(p.price).toLocaleString('ru-RU')} ₽</span>

@@ -1,5 +1,12 @@
 /* Общие функции рендера карточек товара — используются на главной и в каталоге */
 
+/* Страницы товаров живут в подпапках (/<slug>/index.html), поэтому пути к
+   ассетам и другим страницам считаются от data-base на <body> (пусто в
+   корне сайта, "../" на странице товара). */
+const SITE_BASE = document.body.dataset.base || '';
+function assetUrl(path) { return SITE_BASE + path; }
+function productHref(p) { return SITE_BASE + encodeURI(p.slug) + '/'; }
+
 const CATEGORY_BY_SLUG = Object.fromEntries(CATEGORIES.map((c) => [c.slug, c]));
 
 function productCategoryName(p) {
@@ -14,18 +21,21 @@ const ICON_PHOTOS = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" 
 function productCardHTML(p) {
   const fav = typeof isFavorite === 'function' && isFavorite(p.id);
   const photoCount = p.images ? p.images.length : 1;
+  const href = productHref(p);
   return `
   <article class="product-card reveal" data-id="${p.id}">
-    <div class="product-thumb" data-qv="${p.id}">
+    <div class="product-thumb">
+      <a class="product-thumb-link" href="${href}" aria-label="${p.name}">
+        <img src="${assetUrl(p.image)}" alt="${p.name}" loading="lazy" width="480" height="480">
+      </a>
       <span class="product-tag">${productCategoryName(p)}</span>
       <button class="product-fav-btn ${fav ? 'is-active' : ''}" type="button" aria-label="В избранное" data-fav="${p.id}">${ICON_HEART}</button>
-      <img src="${p.image}" alt="${p.name}" loading="lazy" width="480" height="480">
       ${photoCount > 1 ? `<span class="product-photos-badge">${ICON_PHOTOS}${photoCount}</span>` : ''}
       <button class="product-quick" type="button" aria-label="Быстрый просмотр" data-qv="${p.id}">${ICON_EYE}</button>
     </div>
     <div class="product-body">
       <span class="product-cat">${p.material?.[0] || ''}</span>
-      <h3 class="product-name" data-qv="${p.id}">${p.name}</h3>
+      <h3 class="product-name"><a href="${href}">${p.name}</a></h3>
       <p class="product-desc">${p.description}</p>
       <div class="product-foot">
         <span class="product-price">${Number(p.price).toLocaleString('ru-RU')} <small>₽</small></span>

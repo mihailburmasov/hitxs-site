@@ -996,7 +996,7 @@ const PRODUCTS = [
   },
   {
     "id": 369,
-    "slug": "5-sm",
+    "slug": "doska-dlya-podachi-20-30-2-5-sm",
     "name": "Доска для подачи 20/30/2.5 см",
     "description": "Доска для подачи и разделки из дуба.",
     "price": 1300,
@@ -2493,3 +2493,7 @@ const PRODUCTS = [
     ]
   }
 ];
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { CATEGORIES, PRODUCTS };
+}
